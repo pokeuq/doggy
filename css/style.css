@@ -1,4 +1,3 @@
-
 *{padding: 0;margin: 0;border: 0;}
 *,*::before,*::after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
 :focus:active{outline: none;}
@@ -376,16 +375,17 @@ img{
 }
 .donation_dog{
     display: block;
-    width: 505px;
+    width: 600px;
     height: 261px;
-    background:url('../img/donation-dog.svg');
-    margin: 91px 30px 0 183px;
+    background-image:url('../img/donation-dog_2.svg');
+    background-size: cover;
+    margin: 91px 30px 0 153px;
 }
 .dontation_text{
     color:#545454;
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 0.06em;
-    margin: 80px 182px 100px 0;
+    margin: 80px 182px 100px 10px;
 }
 .p_you{
     font-size: 35px;
@@ -495,7 +495,7 @@ img{
     padding-right: 20px;
 }
 .footer_text_3{
-    background:url('../img/icon-marker.svg') no-repeat;
+    background:url('../img/icon-marker.svg')left no-repeat;
     padding-left: 42px;
 }
 .footer_img{
@@ -504,3 +504,4 @@ img{
     background:url('../img/footer-puppy.svg');
     margin:40px 40px 0 0;
 }
+
